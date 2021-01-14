@@ -299,6 +299,10 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-container:last-child {
+  margin-right: 0;
+}
+
 .team-position {
   display: flex;
   flex-wrap: wrap;
@@ -339,6 +343,7 @@ ul {
 
 .teamicon {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
   content: "";
 
@@ -364,8 +369,6 @@ ul {
 }
 
 .svg-icon {
-  display: block;
-  margin: 0 auto;
   fill: currentColor;
 }
 
